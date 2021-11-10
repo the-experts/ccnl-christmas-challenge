@@ -1,4 +1,4 @@
-package nl.codecentric.xmascodechallenge;
+package nl.codecentric.xmascodechallenge.services;
 
 import nl.codecentric.xmascodechallenge.domain.ChristmasTree;
 import nl.codecentric.xmascodechallenge.domain.FirePlace;

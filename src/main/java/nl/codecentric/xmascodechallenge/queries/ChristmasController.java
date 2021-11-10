@@ -1,6 +1,6 @@
 package nl.codecentric.xmascodechallenge.queries;
 
-import nl.codecentric.xmascodechallenge.ChristmasImageService;
+import nl.codecentric.xmascodechallenge.services.ChristmasImageService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
