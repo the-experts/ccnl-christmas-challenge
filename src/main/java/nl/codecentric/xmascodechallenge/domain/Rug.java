@@ -16,7 +16,6 @@ public class Rug {
         g2d.setColor(Colors.DARK_RED.getColor());
         for (int xVar = x - 10; xVar < x + 240; xVar = xVar + 10) {
             for (int yVar = y - 10; yVar < y + 60; yVar = yVar + 10) {
-                System.out.println("" + xVar + "" +yVar);
                 if (g2d.getColor().equals(Colors.DARK_RED.getColor())) {
                     g2d.setColor(Colors.WHITE.getColor());
                 } else {
