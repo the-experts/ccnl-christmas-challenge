@@ -18,9 +18,12 @@ class ChristmasImageServiceTest {
     @Test
     void getChristmasImage() throws IOException {
         try (InputStream in = new FileInputStream("src/test/resources/testChristmasImage.jpg")) {
+            // given
             byte[] expected = in.readAllBytes();
             in.close();
+            // when
             byte[] result = christmasImageService.getChristmasImage();
+            // then
             Assertions.assertArrayEquals(expected, result);
         }
     }
