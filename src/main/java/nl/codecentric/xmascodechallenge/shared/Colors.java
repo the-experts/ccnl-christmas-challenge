@@ -10,6 +10,8 @@ public enum Colors {
     BROWN(new Color(99, 53, 14)),
     LIGHT_BROWN(new Color(134, 77, 29)),
     RED_BROWN(new Color(151, 49, 13)),
+    DARK_RED(new Color(87, 7, 7)),
+    WHITE(new Color(255, 255, 255)),
     DARK_GREEN(new Color(39, 99, 14)),
     LIGHT_GRAY_BROWN(new Color(111, 82, 64)),
     DARK_GRAY_BROWN(new Color(80, 60, 46)),

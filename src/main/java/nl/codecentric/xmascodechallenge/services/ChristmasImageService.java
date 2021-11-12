@@ -55,7 +55,7 @@ public class ChristmasImageService {
     }
 
     private void setRug(Graphics2D g2d) {
-        Rug rug = new Rug(370, 320);
+        Rug rug = new Rug(370, 330);
         rug.printRug(g2d);
     }
 
@@ -85,7 +85,7 @@ public class ChristmasImageService {
     }
 
     private void setLogo(Graphics2D g2d) {
-        Logo logo = new Logo(50, 440);
+        Logo logo = new Logo(40, 440);
         logo.printLogo(g2d);
     }
 
