@@ -13,15 +13,15 @@ public class Rug {
     private final int y;
 
     public void printRug(Graphics2D g2d){
-        g2d.setColor(Colors.DARK_RED.getColor());
+        g2d.setColor(Colors.WHITE.getColor());
         for (int xVar = x - 10; xVar < x + 240; xVar = xVar + 10) {
-            for (int yVar = y - 10; yVar < y + 60; yVar = yVar + 10) {
+            for (int yVar = y +3; yVar < y + 50; yVar = yVar + 5) {
                 if (g2d.getColor().equals(Colors.DARK_RED.getColor())) {
                     g2d.setColor(Colors.WHITE.getColor());
                 } else {
                     g2d.setColor(Colors.DARK_RED.getColor());
                 }
-                g2d.fillRect(xVar, yVar, 10, 10);
+                g2d.fillRect(xVar, yVar, 10, 5);
             }
         }
         g2d.setColor(Colors.DARK_RED.getColor());
