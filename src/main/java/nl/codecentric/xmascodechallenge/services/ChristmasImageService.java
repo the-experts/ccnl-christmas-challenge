@@ -23,19 +23,21 @@ import java.io.InputStream;
 @Service
 public class ChristmasImageService {
 
-    public byte[] getChristmasImage() throws IOException {
-        int width = 700;
-        int height = 520;
+    private static final String CHRISTMAS_IMAGE_JPG = "christmasImage.jpg";
+    private static final String JPG = "jpg";
+    private static final int WIDTH = 700;
+    private static final int HEIGHT = 520;
 
+    public byte[] getChristmasImage() throws IOException {
         // Constructs a BufferedImage of one of the predefined image types.
-        BufferedImage bufferedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+        BufferedImage bufferedImage = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 
         // Create a graphics which can be used to draw into the buffered image
         Graphics2D g2d = bufferedImage.createGraphics();
 
         // fill all the image with white
         g2d.setColor(Color.white);
-        g2d.fillRect(0, 0, width, height);
+        g2d.fillRect(0, 0, WIDTH, HEIGHT);
 
         setChristmasTree(g2d);
         setRug(g2d);
@@ -48,10 +50,12 @@ public class ChristmasImageService {
         g2d.dispose();
 
         // Save as JPEG
-        File file = new File("myimage.jpg");
-        ImageIO.write(bufferedImage, "jpg", file);
+        File file = new File(CHRISTMAS_IMAGE_JPG);
+        ImageIO.write(bufferedImage, JPG, file);
         InputStream in = new FileInputStream(file);
-        return in.readAllBytes();
+        byte[] bytes = in.readAllBytes();
+        in.close();
+        return bytes;
     }
 
     private void setRug(Graphics2D g2d) {
@@ -88,5 +92,4 @@ public class ChristmasImageService {
         Logo logo = new Logo(40, 440);
         logo.printLogo(g2d);
     }
-
 }

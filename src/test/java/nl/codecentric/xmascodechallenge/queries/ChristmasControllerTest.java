@@ -1,4 +1,4 @@
-package nl.codecentric;
+package nl.codecentric.xmascodechallenge.queries;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
