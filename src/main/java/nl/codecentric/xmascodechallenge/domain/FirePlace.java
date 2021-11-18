@@ -24,6 +24,7 @@ public class FirePlace {
         g2d.setColor(Colors.BROWN.getColor());
         g2d.fillRect(xRoot, yRoot + 10, 180, 170);
         g2d.setColor(Colors.RED_BROWN.getColor());
+
         for (int x = xRoot + 10; x < xRoot + 170; x = x + COLUMN_WIDTH) {
             for (int y = yRoot + 40; y < yRoot + 170; y = y + LINE_WIDTH) {
                 if (g2d.getColor().equals(Colors.RED_BROWN.getColor())) {
