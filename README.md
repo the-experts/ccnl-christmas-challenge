@@ -2,6 +2,8 @@
 
 Hello and Merry Christmas, ho ho ho!
 
+![Alt Text](https://media3.giphy.com/media/dXtpREchVgDiEWp1TA/giphy.gif?cid=ecf05e47fdsh55yxi0rqq1exoif905eqc3kkani011znqvzw&rid=giphy.gif)
+
 Welcome to the Christmas Code Challenge presented by codecentric
 
 In this small code challenge we are going to find the person with the largest Christmas spirit!
@@ -10,21 +12,23 @@ To do so, create your best image of christmas spirit!
 
 ## Program
 
-Start: The code challenge starts on 30th of November.
-End: You can send your image and link to your github repo before 24th of December!
-Winner: On the 3th of January we will annouce the winner of the challenge! 
+**Start**: The code challenge starts on 30th of November.
+
+**End**: You can send your image and link to your github repo before 24th of December!
+
+**Winner**: On the 3th of January we will annouce the winner of the challenge! 
 
 ## Prices, ka-chinggggg
-When we have collected at least **15** original images you can win a **headset** or **keyboard** worthy of 150 euro's
+When we have collected at least **15** original images you can win a **headset** or **keyboard** (Worth: 150 euro's)
 ![Screenshot 2021-11-19 at 11 05 26](https://user-images.githubusercontent.com/36627455/142604740-14cdb6af-8788-412a-8412-64a1925b26f3.png)
 ![Screenshot 2021-11-19 at 11 05 40](https://user-images.githubusercontent.com/36627455/142604788-cbfaf53d-ffac-4496-a3ff-291c8e295c29.png)
 
-When we have collected at least **30** original images you can win a **monitor** worthy of 325 euro's
+When we have collected at least **30** original images you can win a **monitor** (Worth: 325 euro's)
 
 ![Screenshot 2021-11-19 at 11 03 00](https://user-images.githubusercontent.com/36627455/142604367-5bf3bf73-2dc9-446e-bdd6-bf0186040cdb.png)
 
 
-When we have collected at least **40** original images you can win the new **Nintendo Switch Oled** worthy of 400 euro's
+When we have collected at least **40** original images you can win the new **Nintendo Switch Oled** (Worth: 400 euro's)
 ![oled](https://user-images.githubusercontent.com/36627455/142602456-568fa04e-acf2-4d90-86fa-613707b79d7b.jpeg)
 
 ## How to win
