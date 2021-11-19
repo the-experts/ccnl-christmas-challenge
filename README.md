@@ -32,7 +32,9 @@ When we have collected at least **40** original images you can win the new **Nin
 If you finished the Christmas challenge you can submit the following information to **codechallenge@codecentric.nl**:
 
 **Name**
+
 **Jpeg-image**
+
 **Link to your github repo**
 
 ## Provided Code
