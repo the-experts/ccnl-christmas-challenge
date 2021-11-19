@@ -30,10 +30,10 @@ When we have collected at least **40** original images you can win the new **Nin
 ## How to win
 
 If you finished the Christmas challenge you can submit the following information to **codechallenge@codecentric.nl**:
-**
-Name
-Jpeg-image
-Link to your github repo**
+
+**Name**
+**Jpeg-image**
+**Link to your github repo**
 
 ## Provided Code
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
