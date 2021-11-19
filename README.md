@@ -63,6 +63,10 @@ You can run your application in dev mode that enables live coding using:
 quarkus dev
 ```
 
+The image will be available on: http://localhost:8080/xmas/vibesAtCCNL
+
+Or will be generated when executing the test file.
+
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
 ## Packaging and running the application
