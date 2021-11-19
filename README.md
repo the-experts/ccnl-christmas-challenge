@@ -8,7 +8,7 @@ Welcome to the Christmas Code Challenge presented by codecentric
 
 In this small code challenge we are going to find the person with the largest Christmas spirit!
 
-To do so, create your best image of christmas spirit!
+Show us what your christmas spirit looks like by tuning, decorating, enhancing (or something even cooler) our base christmas image.
 
 ## Program
 
