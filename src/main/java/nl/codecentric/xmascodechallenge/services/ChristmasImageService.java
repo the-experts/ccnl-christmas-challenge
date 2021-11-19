@@ -84,7 +84,7 @@ public class ChristmasImageService {
     }
 
     private void setChristmasTree(Graphics2D g2d) {
-        ChristmasTree christmasTree = new ChristmasTree(70, 330);
+        ChristmasTree christmasTree = new ChristmasTree(50, 50);
         christmasTree.printToCanvas(g2d);
     }
 
