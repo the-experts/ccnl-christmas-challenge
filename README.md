@@ -33,6 +33,14 @@ When we have collected at least **40** original images you can win the new **Nin
 
 ## How to win
 
+We will check the following points:
+
+1. The original image must be somehow contained in the deliverable.
+
+2. Code quality.
+
+3. Creativity.
+
 If you finished the Christmas challenge you can submit the following information to **codechallenge@codecentric.nl**:
 
 **Name**
