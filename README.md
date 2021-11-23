@@ -20,17 +20,17 @@ Show us what your christmas spirit looks like by tuning, decorating, enhancing (
 
 ## Prices, ka-chinggggg
 When we have collected at least **15** original images you can win a **Razer BlackWidow V3 Gaming Toetsenbord** (Worth: 150 euro's)
+
 <img src="https://user-images.githubusercontent.com/36627455/143019333-bf3d515c-565a-479d-af7c-b26879f0144e.png" alt="Screenshot 2021-11-23 at 12 50 35" width="400"/>
-![Screenshot 2021-11-23 at 12 50 35](https://user-images.githubusercontent.com/36627455/143019333-bf3d515c-565a-479d-af7c-b26879f0144e.png)
 
 When we have collected at least **30** original images you can win a **Samsung Odyssey G5 Curved Gaming Monitor (144hz)** (Worth: 325 euro's)
+
 <img src="https://user-images.githubusercontent.com/36627455/142604367-5bf3bf73-2dc9-446e-bdd6-bf0186040cdb.png" alt="Screenshot 2021-11-19 at 11 03 00" width="400"/>
-![Screenshot 2021-11-19 at 11 03 00](https://user-images.githubusercontent.com/36627455/142604367-5bf3bf73-2dc9-446e-bdd6-bf0186040cdb.png)
 
 
 When we have collected at least **40** original images you can win the new **Nintendo Switch Oled** (Worth: 400 euro's)
+
 <img src="https://user-images.githubusercontent.com/36627455/142602456-568fa04e-acf2-4d90-86fa-613707b79d7b.jpeg" alt="oled" width="400"/>
-![oled](https://user-images.githubusercontent.com/36627455/142602456-568fa04e-acf2-4d90-86fa-613707b79d7b.jpeg)
 
 ## How to win
 
