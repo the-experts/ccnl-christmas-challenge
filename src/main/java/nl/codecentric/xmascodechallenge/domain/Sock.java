@@ -12,7 +12,7 @@ public class Sock {
 
     private final int y;
 
-    public void printSock(Graphics2D g2d) {
+    public void printToCanvas(Graphics2D g2d) {
         g2d.setColor(Color.white);
         g2d.fillRect(x, y, 20, 10);
         g2d.setColor(Color.red);

@@ -76,11 +76,11 @@ public class ChristmasImageService {
 
     private void setSocks(Graphics2D g2d) {
         Sock sock = new Sock(430, 130);
-        sock.printSock(g2d);
+        sock.printToCanvas(g2d);
         Sock sock2 = new Sock(470, 130);
-        sock2.printSock(g2d);
+        sock2.printToCanvas(g2d);
         Sock sock3 = new Sock(510, 130);
-        sock3.printSock(g2d);
+        sock3.printToCanvas(g2d);
     }
 
     private void setChristmasTree(Graphics2D g2d) {
