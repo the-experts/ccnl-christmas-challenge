@@ -54,9 +54,8 @@ class ChristmasTreeTest {
         inOrder.verify(graphics2DMock).fillRect(130, 0, 10, 20);
 
         inOrder.verify(graphics2DMock, times(11)).fillRect(anyInt(), anyInt(), anyInt(), anyInt());
-        //TODO replace with actual value assertions
+        // TODO replace with actual value assertions
 //        inOrder.verify(graphics2DMock).fillRect(10, 230, 250, 10);
-//        inOrder.verify(graphics2DMock).fillRect(120, -230, 10, 20);
 
 
     }
