@@ -75,6 +75,8 @@ euro's)
 
 <img src="https://user-images.githubusercontent.com/36627455/142602456-568fa04e-acf2-4d90-86fa-613707b79d7b.jpeg" alt="oled" width="400"/>
 
+
+
 ##Other Rules of Engagement
 - Participants must be 18 years or older at the time of their final submission
 - Participants must have their current address in the Netherlands
