@@ -1,4 +1,10 @@
-# ccnl-christmas-challenge Project
+powerded by
+
+<img src="https://www.codecentric.nl/files/2017/09/CC_CMYK_onWhite.png" alt="oled" width="400"/>
+
+
+# Codecentric Christmas Code Challenge Project
+
 
 ```
          |
