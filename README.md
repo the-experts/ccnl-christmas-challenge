@@ -48,7 +48,7 @@ We will decide who is the winner of the challenge based the following criteria:
 
 Once you have finished the CCCC to your liking you can submit the following information to **codechallenge@codecentric.nl**:
 
-** Your Name**
+**Your Name**
 
 **Your Address**
 
