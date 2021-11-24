@@ -81,7 +81,9 @@ euro's)
 - The prices named in section "Prices, ka-chinggggg" can be exchanged by codecentric at free will if the named prices 
   should become unavailable for purchase or a radical price change takes place. Replacement prices will remain in the same 
   price category in terms of monetary value.
-
+- Participants may only participate once. If one indivivual should submit multiple times, codecentric will only 
+  regard the last submission, and disregard the rest.
+- 
 
 ## Provided Code
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
