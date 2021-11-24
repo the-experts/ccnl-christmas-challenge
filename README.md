@@ -1,54 +1,87 @@
 # ccnl-christmas-challenge Project
 
+```
+         |
+        -+-
+         A
+        /=\               /\  /\    ___  _ __  _ __ __    __
+      i/ O \i            /  \/  \  / _ \| '__|| '__|\ \  / /
+      /=====\           / /\  /\ \|  __/| |   | |    \ \/ /
+      /  i  \           \ \ \/ / / \___/|_|   |_|     \  /
+    i/ O * O \i                                       / /
+    /=========\        __  __                        /_/    _
+    /  *   *  \        \ \/ /        /\  /\    __ _  ____  | |
+  i/ O   i   O \i       \  /   __   /  \/  \  / _` |/ ___\ |_|
+  /=============\       /  \  |__| / /\  /\ \| (_| |\___ \  _
+  /  O   i   O  \      /_/\_\      \ \ \/ / / \__,_|\____/ |_|
+i/ *   O   O   * \i
+/=================\
+       |___|
+```
+
 Hello and Merry Christmas, ho ho ho!
 
-![Alt Text](https://media3.giphy.com/media/dXtpREchVgDiEWp1TA/giphy.gif?cid=ecf05e47fdsh55yxi0rqq1exoif905eqc3kkani011znqvzw&rid=giphy.gif)
+Welcome to the Codecentric Christmas Code Challenge (CCCC).
 
-Welcome to the Christmas Code Challenge presented by codecentric
+In this small code challenge we are going to find the person with the biggest and most creative Christmas spirit!
 
-In this small code challenge we are going to find the person with the largest Christmas spirit!
+Show us what your Christmas spirit looks like by tuning, decorating, enhancing (or something even cooler) our base 
+Christmas image ```(./christmasImage.jpg)```.
 
-Show us what your christmas spirit looks like by tuning, decorating, enhancing (or something even cooler) our base christmas image.
+## Timeline
 
-## Program
+**Start**: The CCCC starts on 30th of November 2021.
 
-**Start**: The code challenge starts on 30th of November.
+**End**: You can send your image and link to your github repo before 24th of December 2021!
 
-**End**: You can send your image and link to your github repo before 24th of December!
-
-**Winner**: On the 3th of January we will annouce the winner of the challenge! 
-
-## Prices, ka-chinggggg
-When we have collected at least **15** original images you can win a **Razer BlackWidow V3 Gaming Toetsenbord** (Worth: 150 euro's)
-
-<img src="https://user-images.githubusercontent.com/36627455/143019333-bf3d515c-565a-479d-af7c-b26879f0144e.png" alt="Screenshot 2021-11-23 at 12 50 35" width="400"/>
-
-When we have collected at least **30** original images you can win a **Samsung Odyssey G5 Curved Gaming Monitor (144hz)** (Worth: 325 euro's)
-
-<img src="https://user-images.githubusercontent.com/36627455/142604367-5bf3bf73-2dc9-446e-bdd6-bf0186040cdb.png" alt="Screenshot 2021-11-19 at 11 03 00" width="400"/>
-
-
-When we have collected at least **40** original images you can win the new **Nintendo Switch Oled** (Worth: 400 euro's)
-
-<img src="https://user-images.githubusercontent.com/36627455/142602456-568fa04e-acf2-4d90-86fa-613707b79d7b.jpeg" alt="oled" width="400"/>
+**Winner**: On the 3th of January 2022 we will announce the winner of the CCCC! 
 
 ## How to win
 
-We will check the following points:
+We will decide who is the winner of the challenge based the following criteria:
 
 1. The original image must be somehow contained in the deliverable.
 
 2. Code quality.
 
-3. Creativity.
+3. Most of all creativity and Christmas spirit :D.
 
-If you finished the Christmas challenge you can submit the following information to **codechallenge@codecentric.nl**:
+Once you have finished the CCCC to your liking you can submit the following information to **codechallenge@codecentric.nl**:
 
-**Name**
+** Your Name**
 
-**Jpeg-image**
+**Your Address**
 
-**Link to your github repo**
+**Your Christmas image attached as a jpeg file**
+
+**Link to your github repo** (where we can have a look at your code and how you brought your Christmas spirit to us. 
+Make sure it is public ;) )
+
+
+## Prices, ka-chinggggg
+Between **15-29** original images submitted: you can win a **Razer BlackWidow V3 Gaming Toetsenbord** 
+(Worth: 150 euro's)
+
+<img src="https://user-images.githubusercontent.com/36627455/143019333-bf3d515c-565a-479d-af7c-b26879f0144e.png" alt="Screenshot 2021-11-23 at 12 50 35" width="400"/>
+
+Between **30-39** original images submitted:  you can win a **Samsung Odyssey G5 Curved Gaming Monitor 
+(144hz)** (Worth: 325 euro's)
+
+<img src="https://user-images.githubusercontent.com/36627455/142604367-5bf3bf73-2dc9-446e-bdd6-bf0186040cdb.png" alt="Screenshot 2021-11-19 at 11 03 00" width="400"/>
+
+
+At least **40** original images submitted or more: you can win the new **Nintendo Switch Oled** (Worth: 400 
+euro's)
+
+<img src="https://user-images.githubusercontent.com/36627455/142602456-568fa04e-acf2-4d90-86fa-613707b79d7b.jpeg" alt="oled" width="400"/>
+
+##Other Rules of Engagement
+- Participants must be 18 years or older at the time of their final submission
+- Participants must have their current address in the Netherlands
+- The prices named in section "Prices, ka-chinggggg" can be exchanged by codecentric at free will if the named prices 
+  should become unavailable for purchase or a radical price change takes place. Replacement prices will remain in the same 
+  price category in terms of monetary value.
+
 
 ## Provided Code
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
