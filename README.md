@@ -65,6 +65,9 @@ Make sure it is public ;) )
 
 
 ## Prices, ka-chinggggg
+
+The more people that participate, the bigger the price becomes that we give out. So make sure to share with your friends and colleagues. After all you know what they say: The more the merrier 🎅
+
 Between **15-29** original images submitted: you can win a **Razer BlackWidow V3 Gaming Toetsenbord** 
 (Worth: 150 euro's)
 
