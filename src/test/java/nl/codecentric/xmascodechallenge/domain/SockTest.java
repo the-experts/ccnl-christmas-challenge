@@ -12,10 +12,12 @@ class SockTest {
 
     @Test
     void printToCanvas() {
+        //given
         Graphics2D graphics2DMock = Mockito.mock(Graphics2D.class);
+        //when
         Sock sock = new Sock(0, 0);
-
         sock.printToCanvas(graphics2DMock);
+        //then
         InOrder inOrder = Mockito.inOrder(graphics2DMock);
         inOrder.verify(graphics2DMock).setColor(Color.white);
         inOrder.verify(graphics2DMock).fillRect(0, 0, 20, 10);

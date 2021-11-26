@@ -60,7 +60,7 @@ public class ChristmasImageService {
 
     private void setRug(Graphics2D g2d) {
         Rug rug = new Rug(370, 330);
-        rug.printRug(g2d);
+        rug.printToCanvas(g2d);
     }
 
     private void setFireplace(Graphics2D g2d) {
@@ -71,7 +71,7 @@ public class ChristmasImageService {
 
     private void setFirewood(Graphics2D g2d) {
         Firewood firewood = new Firewood(440, 200);
-        firewood.printFirewood(g2d);
+        firewood.printToCanvas(g2d);
     }
 
     private void setSocks(Graphics2D g2d) {
@@ -84,12 +84,12 @@ public class ChristmasImageService {
     }
 
     private void setChristmasTree(Graphics2D g2d) {
-        ChristmasTree christmasTree = new ChristmasTree(50, 50);
+        ChristmasTree christmasTree = new ChristmasTree(30, 90);
         christmasTree.printToCanvas(g2d);
     }
 
     private void setLogo(Graphics2D g2d) {
         Logo logo = new Logo(40, 440);
-        logo.printLogo(g2d);
+        logo.printToCanvas(g2d);
     }
 }

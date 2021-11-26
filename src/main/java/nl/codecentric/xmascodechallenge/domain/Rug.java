@@ -12,9 +12,9 @@ public class Rug {
 
     private final int y;
 
-    public void printRug(Graphics2D g2d){
+    public void printToCanvas(Graphics2D g2d){
         g2d.setColor(Colors.WHITE.getColor());
-        for (int xVar = x - 10; xVar < x + 240; xVar = xVar + 10) {
+        for (int xVar = x; xVar < x + 250; xVar = xVar + 10) {
             for (int yVar = y +3; yVar < y + 50; yVar = yVar + 5) {
                 if (g2d.getColor().equals(Colors.DARK_RED.getColor())) {
                     g2d.setColor(Colors.WHITE.getColor());
@@ -25,9 +25,9 @@ public class Rug {
             }
         }
         g2d.setColor(Colors.DARK_RED.getColor());
-        g2d.fillRect(x, y, 230, 50);
+        g2d.fillRect(x + 10, y, 230, 50);
         g2d.setColor(Colors.DARK_GRAY_BROWN.getColor());
-        g2d.fillRect(x+10,  y+10, 210, 30);
+        g2d.fillRect(x+20,  y+10, 210, 30);
 
     }
 }

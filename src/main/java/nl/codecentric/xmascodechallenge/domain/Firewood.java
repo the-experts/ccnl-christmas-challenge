@@ -11,7 +11,7 @@ public class Firewood {
 
     private final int y;
 
-    public void printFirewood(Graphics2D g2d){
+    public void printToCanvas(Graphics2D g2d){
         g2d.setColor(Color.pink);
         g2d.fillRect(x, y, 100, 70);
         g2d.setColor(Color.black);
