@@ -1,5 +1,6 @@
 package nl.codecentric.xmascodechallenge.services;
 
+import lombok.extern.slf4j.Slf4j;
 import nl.codecentric.xmascodechallenge.domain.ChristmasTree;
 import nl.codecentric.xmascodechallenge.domain.FirePlace;
 import nl.codecentric.xmascodechallenge.domain.Firewood;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Service;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.awt.image.IndexColorModel;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -21,22 +23,35 @@ import java.io.InputStream;
  */
 
 @Service
+@Slf4j
 public class ChristmasImageService {
 
-    private static final String CHRISTMAS_IMAGE_JPG = "christmasImage.jpg";
-    private static final String JPG = "jpg";
+    private static final String CHRISTMAS_IMAGE_PNG = "christmasImage.png";
+    private static final String PNG = "png";
     private static final int WIDTH = 700;
     private static final int HEIGHT = 520;
 
     public byte[] getChristmasImage() throws IOException {
-        // Constructs a BufferedImage of one of the predefined image types.
-        BufferedImage bufferedImage = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
+        BufferedImage bufferedImage = createImage();
+
+        // Save as PNG
+        File file = new File(CHRISTMAS_IMAGE_PNG);
+        ImageIO.write(bufferedImage, PNG, file);
+        InputStream in = new FileInputStream(file);
+        byte[] bytes = in.readAllBytes();
+        in.close();
+        return bytes;
+    }
+
+    public BufferedImage createImage() {
+        // Constructs a BufferedImage of one of the predefined image types with alpha channel
+        BufferedImage bufferedImage = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_ARGB);
 
         // Create a graphics which can be used to draw into the buffered image
         Graphics2D g2d = bufferedImage.createGraphics();
 
         // fill all the image with white
-        g2d.setColor(Color.white);
+        g2d.setColor(new Color(255,255,255, 255));
         g2d.fillRect(0, 0, WIDTH, HEIGHT);
 
         setChristmasTree(g2d);
@@ -46,16 +61,12 @@ public class ChristmasImageService {
         setSocks(g2d);
         setLogo(g2d);
 
+        g2d.setComposite(AlphaComposite.DstOut);
+
         // Disposes of this graphics context and releases any system resources that it is using.
         g2d.dispose();
 
-        // Save as JPEG
-        File file = new File(CHRISTMAS_IMAGE_JPG);
-        ImageIO.write(bufferedImage, JPG, file);
-        InputStream in = new FileInputStream(file);
-        byte[] bytes = in.readAllBytes();
-        in.close();
-        return bytes;
+        return bufferedImage;
     }
 
     private void setRug(Graphics2D g2d) {
@@ -67,7 +78,6 @@ public class ChristmasImageService {
         FirePlace firePlace = new FirePlace(400, 120);
         firePlace.printToCanvas(g2d);
     }
-
 
     private void setFirewood(Graphics2D g2d) {
         Firewood firewood = new Firewood(440, 200);

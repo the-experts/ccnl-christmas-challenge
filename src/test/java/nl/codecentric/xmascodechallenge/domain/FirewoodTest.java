@@ -1,7 +1,6 @@
 package nl.codecentric.xmascodechallenge.domain;
 
 import io.quarkus.test.junit.QuarkusTest;
-import nl.codecentric.xmascodechallenge.shared.Colors;
 import org.junit.jupiter.api.Test;
 import org.mockito.InOrder;
 import org.mockito.Mockito;
