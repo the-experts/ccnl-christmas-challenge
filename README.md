@@ -3,7 +3,7 @@ powerded by
 <img src="https://www.codecentric.nl/files/2017/09/CC_CMYK_onWhite.png" alt="oled" width="400"/>
 
 
-# Codecentric Christmas Code Challenge Project
+# Codecentric Christmas Code Challenge
 
 
 ```
@@ -54,11 +54,11 @@ We will decide who is the winner of the challenge based the following criteria:
 
 Once you have finished the CCCC to your liking you can submit the following information to **codechallenge@codecentric.nl**:
 
-**Your Name**
+- **Your Name**
 
-**Your Address**
+- **Your E-Mail Address**
 
-**Your Christmas image attached as a jpeg file**
+- **Your Christmas image attached as a jpeg file**
 
 **Link to your github repo** (where we can have a look at your code and how you brought your Christmas spirit to us. 
 Make sure it is public ;) )
@@ -106,13 +106,15 @@ It is required to run the project
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
+(Pre-requirement is to have the quarkus client installed)
 ```
 quarkus dev
 ```
 
-The image will be available on: http://localhost:8080/xmas/vibesAtCCNL
+The image will be available for checking on: http://localhost:8080/xmas/vibesAtCCNL.
 
-Or will be generated when executing the test file.
+Alternatively, it will also be generated when executing the test file 
+```src/test/java/nl/codecentric/xmascodechallenge/services/ChristmasImageServiceTest.java```.
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
